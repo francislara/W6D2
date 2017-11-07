@@ -1,1 +1,70 @@
 /* PHASE 9: Forms */
+.post-form {
+    display: inline-block;
+    background: #eee;
+    width: 495px;
+    margin: 0 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.new-post a {
+    display: block;
+    float: left;
+}
+
+.new-post input, textarea {
+    width: 95%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.post-form label {
+    font-weight: 900;
+}
+
+.post-form button {
+    margin: 10px;
+}
+
+.submit-button {
+    background: #0c0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 3px #070;
+}
+
+.submit-button:hover {
+    background: #0b0;
+}
+
+.submit-button:active {
+    box-shadow: 0px 0px;
+    background: #0a0;
+    transform: translateY(3px);
+}
+
+.form-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.cancel-button {
+    font-weight: 700;
+}
+
+.cancel-button:hover {
+    color: red;
+}
+
+/* Green: #0c0
+Dark Green: #0b0
+Darker Green: #0a0
+Darkest Green: #070 */
