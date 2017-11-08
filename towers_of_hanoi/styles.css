@@ -1,0 +1,62 @@
+
+
+.hanoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tower {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border-bottom: solid black 7px;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.stone {
+    height: 50px;
+    background-color: rgb(66, 34, 153);
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.stone-1 {
+    width: 20%;
+}
+
+.stone-2 {
+    width: 40%;
+}
+
+.stone-3 {
+    width: 60%;
+}
+
+.winner {
+    display: block;
+    color: #070;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.green {
+    background-color: rgb(7, 207, 7);
+}
+
+.tower:hover {
+    border-color: red;
+}
+
+.selected {
+    border-color: blue;
+}
+
+.selected:hover {
+    border-color: blue;
+}
