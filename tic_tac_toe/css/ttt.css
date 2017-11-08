@@ -56,6 +56,11 @@ width: 300px;
     color: white;
 }
 
+.green:hover {
+    background-color: #070;
+    color: white;
+}
+
 .game-end {
     display: block;
     width: 300px;
